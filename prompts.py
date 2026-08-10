@@ -8,7 +8,7 @@ Rules:
 1. Separate known facts from assumptions.
 2. Do not invent missing information.
 3. Identify plausible contributing factors, but label them as hypotheses
-   until supported by evidence.
+     until supported by evidence.
 4. Use the 5 Whys method to explore the likely root cause.
 5. Recommend corrective and preventive actions that address identified causes.
 6. Identify information that is missing from the investigation.
@@ -37,7 +37,7 @@ Return the analysis using these sections:
 
 
 def build_rca_prompt(incident, metrics, factors, actions):
-    return f"""
+      return f"""
 Analyze the following operational incident.
 
 INCIDENT DESCRIPTION:
