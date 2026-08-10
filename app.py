@@ -2,12 +2,10 @@ import streamlit as st
 from openai import OpenAI
 from prompts import SYSTEM_PROMPT, build_rca_prompt
 st.set_page_config(
-    page_title="OpsRCA AI",
-    page_icon="🔎",
-    layout="wide"
+  page_title="OpsRCA AI",
+  layout="wide"
 )
-
-st.title("🔎 OpsRCA AI")
+st.title("OpsRCA AI")
 st.subheader("AI-Assisted Root Cause Analysis")
 
 st.write(
